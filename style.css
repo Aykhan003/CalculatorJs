@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputs input {
+    width: 30%;
+    height: 26px;
+    padding: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 45px;
+}
+
+.buttons button {
+    width: 15%;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    color: rgb(231, 229, 229);
+    cursor: pointer;
+}
+
+.addition {
+    background-color: #0d6efd;
+}
+
+.subtraction {
+    background-color: #dc3545;
+}
+
+.multiplication {
+    background-color: #198754;
+}
+
+.division {
+    background-color: #ffc107;
+    color: black !important;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.result input {
+    width: 37%;
+    height: 28px;
+    padding: 5px;
+}
